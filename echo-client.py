@@ -10,7 +10,7 @@ PORT = 65432
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((HOST, PORT)) #connect to the server
     print("Connection Established")
-    print("Would you like to preform a mathematical OPERATION or FIND a word in a sentence")
+    print("Would you like to compute a mathematical OPERATION or FIND a word in a sentence")
     #user input for requested service
     response = input()
     
